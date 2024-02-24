@@ -1,6 +1,6 @@
 const mainPage=document.querySelector(".back-main");
 mainPage.addEventListener("click",()=>{
-    window.location.replace("login.html");
+    window.location.replace("index.html");
 })
 
 const projectONE=document.querySelector(".proOne");
