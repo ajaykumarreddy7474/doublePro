@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: "Poppins"; */
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(/one/pic1.png) no-repeat center center/ cover;
+    height: 100vh;
+}
+
+.container{
+    width: 500px;
+    height: 450px;
+    
+}
+
+.header{
+    font-size: 1.2rem;
+    border:2px solid white;
+    color: white;
+    background-color: black;
+    padding: 8px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.main-content{
+    width: 100%;
+    height: min-content;
+    background-color: white;
+    border-radius: 15px;
+    padding: 50px 40px;
+    box-shadow: 0 0 30px;
+}
+
+.main-content .text-area{
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+ 
+.main-content .person{
+    font-size: 1.5rem;
+    color: red;
+    text-transform: uppercase; 
+    margin-top: 20px;
+}
+
+.button-area #new-quote {
+    background-color: green;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.button-area #new-quote:hover{
+    box-shadow:0 20px  40px rgb(119, 125, 246);
+}
+
+.button-area #new-quote:active{
+    background-color: rgb(39, 24, 242);
+}
+
+
+
+
+
+
+.button-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.back-click1{
+    margin-top: 120px;
+    color:white;
+    background-color: rgb(0, 0, 0);
+    padding: 5px 20px;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.back-click1:hover{
+background-color: rgb(255, 255, 255);
+color: black;
+box-shadow:0 0 40px rgb(169, 130, 130);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
